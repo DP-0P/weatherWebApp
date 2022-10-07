@@ -1,7 +1,7 @@
 const conutiresURL = 'https://restcountries.com/v2/all'
 
 function fetchingCapitalsAndCountries(data) {
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 0; i < data.length-1; i++) {
 
     //adding flag
     let flagDiv = document.createElement('div')
